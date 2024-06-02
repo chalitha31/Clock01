@@ -79,9 +79,9 @@ function Secondpin() {
 // }
 
 function cRotate() {
-    var dsr = document.getElementById("dsr");
-    var dsl = document.getElementById("dsl");
-    var circlewrapid = document.getElementById("circlewrapid");
+    // var dsr = document.getElementById("dsr");
+    // var dsl = document.getElementById("dsl");
+    // var circlewrapid = document.getElementById("circlewrapid");
 
     dsRreg = dsRreg + 6;
 
@@ -89,10 +89,10 @@ function cRotate() {
     // alert(dsreg + "b")
 
     if (dsRreg >= 0 && dsRreg <= 180) {
-        circlewrapid.style.backgroundColor = "red";
+        // circlewrapid.style.backgroundColor = "red";
         // maskl.style.backgroundColor = " #e5eee6";
-        dsr.style.transform = "rotate(" + dsRreg + "deg";
-        ")"
+        // dsr.style.transform = "rotate(" + dsRreg + "deg";
+        // ")"
 
 
     }
@@ -110,14 +110,14 @@ function cRotate() {
 
         if (dsRreg == 360) {
             dsRreg = 0;
-            circlewrapid.style.backgroundColor = " #e5eee6";
+            // circlewrapid.style.backgroundColor = " #e5eee6";
         }
 
     }
 
 
 
-    document.getElementById("stext").innerHTML = dsRreg / 6;
+    // document.getElementById("stext").innerHTML = dsRreg / 6;
 
 
     // kalim////////////////
