@@ -1,0 +1,441 @@
+.Base {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(44, 44, 44);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.octagon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    /* background-image: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%); */
+}
+
+.circle {
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    /* box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.712); */
+    /* background: radial-gradient(circle at 100%, #333, #333 50%, #eee 50%, #333 50%); */
+    /* box-shadow: rgba(219, 7, 7, 0.25) 0px 50px 100px -20px, rgba(240, 17, 17, 0.3) 0px 30px 60px -30px, rgba(197, 13, 53, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(44, 44, 44, 9.2) 0px 2px 20px 10px; */
+    /* border-radius: 50%; */
+    /* background: #a09c9c; */
+    box-shadow: inset 5px 5px 16px #232323a2, inset -5px -5px 16px #12111193, inset 5px -5px 16px #00000093;
+}
+
+.nmbr {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    position: absolute;
+    transform-origin: 50% 250px;
+    left: 225px;
+    text-align: center;
+    color: rgb(129, 130, 145);
+}
+
+.nm1 {
+    transform: rotate(30deg);
+}
+
+.nm2 {
+    transform: rotate(60deg);
+}
+
+.nm3 {
+    transform: rotate(90deg);
+}
+
+.nm4 {
+    transform: rotate(120deg);
+}
+
+.nm5 {
+    transform: rotate(150deg);
+}
+
+.nm6 {
+    transform: rotate(180deg);
+}
+
+.nm7 {
+    transform: rotate(210deg);
+}
+
+.nm8 {
+    transform: rotate(240deg);
+}
+
+.nm9 {
+    transform: rotate(270deg);
+}
+
+.nm10 {
+    transform: rotate(300deg);
+}
+
+.nm11 {
+    transform: rotate(330deg);
+}
+
+.n1 {
+    transform: rotate(-30deg);
+}
+
+.n2 {
+    transform: rotate(-60deg);
+}
+
+.n3 {
+    transform: rotate(-90deg);
+}
+
+.n4 {
+    transform: rotate(-120deg);
+}
+
+.n5 {
+    transform: rotate(-150deg);
+}
+
+.n6 {
+    transform: rotate(-180deg);
+}
+
+.n7 {
+    transform: rotate(-210deg);
+}
+
+.n8 {
+    transform: rotate(-240deg);
+}
+
+.n9 {
+    transform: rotate(-270deg);
+}
+
+.n10 {
+    transform: rotate(-300deg);
+}
+
+.n11 {
+    transform: rotate(-330deg);
+}
+
+.stick {
+    position: absolute;
+    bottom: 250px;
+    width: 20px;
+    height: 100px;
+    transform-origin: 50% 100%;
+    clip-path: polygon(40% 0%, 60% 0%, 100% 100%, 0% 100%);
+}
+
+.Hstick {
+    left: 237px;
+    width: 26px;
+    height: 70px;
+    background-color: rgba(185, 12, 162, 0.925);
+    z-index: 2;
+    /* transform: rotate(35deg); */
+}
+
+.Mstick {
+    left: 240px;
+    width: 20px;
+    height: 85px;
+    background-color: rgba(140, 150, 9, 0.849);
+    z-index: 1;
+    /* transform: rotate(170deg); */
+}
+
+.Sstick {
+    left: 245px;
+    width: 10px;
+    height: 95px;
+    background-color: rgb(41, 122, 9);
+    z-index: 3;
+    /* transform: rotate(300deg); */
+}
+
+.top {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    z-index: 4;
+    border-radius: 50%;
+    background-color: rgb(206, 186, 186);
+    box-shadow: 2px 2px 10px black;
+}
+
+.top2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    z-index: 4;
+    border-radius: 50%;
+    background-color: rgb(32, 29, 29);
+    box-shadow: 2px 2px 10px black;
+}
+
+.hh,
+.mm,
+.ss {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hh {
+    color: rgb(255, 0, 179);
+}
+
+.mm {
+    color: rgb(208, 255, 0);
+}
+
+.ss {
+    color: rgb(34, 223, 17);
+}
+
+.sc {
+    width: 350px;
+    height: 350px;
+    /* left: 60px; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    /* transform: rotate(60deg); */
+    border-radius: 50%;
+    background-color: rgba(10, 10, 10, 0.712);
+    /* display: flex;
+    justify-content: center; */
+}
+
+.sc1 {
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 345px;
+    height: 345px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+}
+
+.mc {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(0deg);
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: rgba(10, 10, 10, 0.753);
+}
+
+.mc1 {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+}
+
+.hc {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(0deg);
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: rgba(10, 10, 10, 0.705);
+}
+
+.hc1 {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+}
+
+.sb,
+.mb,
+.hb {
+    position: absolute;
+    /* display: flex; */
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    z-index: 8;
+    top: -7px;
+    /* box-shadow: rgba(204, 18, 18, 0.911) 0px 0px 10px 4px; */
+}
+
+.sb {
+    background-color: rgb(34, 223, 17);
+    box-shadow: rgba(48, 252, 7, 0.952) 0px 0px 10px 2px;
+}
+
+.mb {
+    background-color: rgb(208, 255, 0);
+    box-shadow: rgba(215, 230, 8, 0.911) 0px 0px 10px 3px;
+}
+
+.hb {
+    background-color: rgb(255, 0, 179);
+    box-shadow: rgba(235, 9, 186, 0.911) 0px 0px 10px 3px;
+}
+
+.support {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(44, 44, 44);
+    margin-top: 250px;
+    z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 16px #242424a2, inset -5px -5px 16px #17171793, inset 5px -5px 16px #00000093;
+}
+
+.timebar {
+    width: 60%;
+    height: 70px;
+    background-color: rgb(54, 51, 56);
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 16px #00000088, inset -5px -5px 16px #00000093, inset 5px -5px 10px #14141480;
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    z-index: -1;
+}
+
+.circle-wrap {
+    /* margin: 150px auto; */
+    width: 150px;
+    height: 150px;
+    background: #d41f12;
+    border-radius: 50%;
+    position: absolute;
+    /* border: 1px solid #d0cbcb; */
+}
+
+.ring1 {
+    width: 140px;
+    height: 140px;
+    background: rgb(44, 44, 44);
+    position: absolute;
+    z-index: 6;
+    border-radius: 50%;
+}
+
+.tcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stext {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#stext2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    text-align: end;
+    top: 70%;
+    left: 28%;
+}
+
+.circle-wrap .circled .maskr,
+.circle-wrap .circled .maskl,
+.circle-wrap .circled .fill,
+.circle-wrap .circled .fillleft {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.maskr .fill {
+    clip: rect(0px, 150px, 150px, 75px);
+    background-color: #e5eee6;
+}
+
+.maskl .fillleft {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #e5eee6;
+}
+
+.circle-wrap .circled .maskr {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circled .maskl {
+    clip: rect(0px, 75px, 150px, 0px);
+}
+
+.circled .fill {
+    /* animation: fill ease-in-out 3s; */
+    /* transform: rotate(0deg); */
+}
+
+.circled .fillleft {
+    /* animation: fill ease-in-out 3s; */
+    /* transform: rotate(180deg); */
+}
